@@ -1,0 +1,56 @@
+.faq {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	background-color: #E9E577;
+	height: 70vh;
+
+	h1 {
+		grid-column: 1 / span 7;
+		grid-row: 1;
+		font-size: 5rem;
+		color: #3A3D3F;
+		align-self: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	button {
+		font-family: john-doe, sans-serif;
+		font-size: 1.5rem;
+	}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  grid-column: 1 / span 7;
+  background-color: #E9E577;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3A3D3F;
+  color: #3A3D3F;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #BCC4DB;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	grid-column: 1 / span 7;
+  padding: 0 18px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+
+  	p {
+  	font-family: pragmatica,sans-serif;
+  	font-size: 1.5rem;
+  }
+}
+}

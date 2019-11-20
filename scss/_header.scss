@@ -1,0 +1,54 @@
+@media screen and (min-width: 40em){
+
+	body {
+		background-color: #FFF;
+	}
+
+	header {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 1fr;
+		position: sticky;
+		top: 0;
+		width: 100%;
+		background-color: #FFF;
+		overflow: hidden;
+		z-index: 3;
+		height: 25vh;
+
+		.line2 {
+			grid-row: 3;
+			grid-column: 1 / span 9;
+
+			img {
+				width: 100%;
+				height: 50%;
+				z-index: 1;
+			}
+		}
+
+		nav {
+			grid-column: 2 / span 7;
+			text-align: center;
+			align-self: center;
+			justify-self: center;
+			
+			grid-row: 1;
+		}
+
+		a {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+
+	img {
+			height: 100%;
+			width: 20%;
+			text-align: center;
+			align-self: center;
+			justify-self: center;
+		}
+	}

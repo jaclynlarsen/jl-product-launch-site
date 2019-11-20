@@ -1,0 +1,40 @@
+@media screen and (min-width: 40em){
+	.company {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	background-color: rgba(229, 224, 90, .7);
+	height: 40vh;
+
+	h1 {
+		grid-column: 2 / span 2;
+		grid-row: 2;
+		color: #3A3D3F;
+		font-size: 3rem;
+		align-self: center;
+		justify-content: center;
+	}
+
+	.line {
+		grid-column: 2 / span 2;
+		grid-row: 3;
+
+		img {
+			width: 100%;
+			height: 70%;
+		}
+	}
+
+	p {
+		grid-column: 5 / span 4;
+		grid-row: 2;
+		align-self: center;
+		justify-content: center;
+		font-family: pragmatica,sans-serif;
+		font-weight: 300;
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+		color: #3A3D3F;
+	}
+}
+}

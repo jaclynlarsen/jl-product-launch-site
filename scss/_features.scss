@@ -1,0 +1,94 @@
+@media screen and (min-width: 40em){
+	.features {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 40vh;
+	background-color: #E9E577;
+
+	h1 {
+		grid-row: 1;
+		grid-column: 2 / span 10;
+		align-self: center;
+		justify-content: center;
+		text-align: center;
+		color: #3A3D3F;
+		font-size: 3rem;
+	}
+
+	.zzz {
+		grid-column: 2;
+		grid-row: 2;
+		align-self: center;
+		justify-content: center;
+	}
+
+	.brain {
+		grid-column: 5;
+		grid-row: 2;
+		align-self: center;
+		justify-content: center;
+
+	}
+
+	.smile {
+		grid-column: 8;
+		grid-row: 2;
+		align-self: center;
+		justify-content: center;
+	}
+
+	.vegan {
+		grid-column: 11;
+		grid-row: 2;
+		align-self: center;
+		justify-content: center;
+
+	}
+
+	.zzztext {
+		font-family:  john-doe, sans-serif;
+		font-size: .8rem;
+		color: #3A3D3F;
+		align-self: center;
+		justify-content: center;
+		grid-column: 2 / span 2;
+		grid-row: 3;
+	}
+
+	.braintext {
+		font-family:  john-doe, sans-serif;
+		font-size: .8rem;
+		color: #3A3D3F;
+		align-self: center;
+		justify-content: center;
+		grid-column: 5 / span 2;
+		grid-row: 3;
+	}
+
+	.smiletext {
+		font-family:  john-doe, sans-serif;
+		font-size: .8rem;
+		color: #3A3D3F;
+		align-self: center;
+		justify-content: center;
+		grid-column: 8 / span 2;
+		grid-row: 3;
+	}
+
+	.vegantext {
+		font-family:  john-doe, sans-serif;
+		font-size: .8rem;
+		color: #3A3D3F;
+		align-self: center;
+		justify-content: center;
+		grid-column: 11 / span 2;
+		grid-row: 3;
+	}
+		img {
+			width: 40%;
+			height: 40%;
+			text-align: center;
+		}
+}
+}

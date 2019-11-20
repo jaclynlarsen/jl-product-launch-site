@@ -1,0 +1,52 @@
+@media screen and (min-width: 40em){
+	.product {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 5rem;
+	height: 50vh;
+	background-color: #FFF;
+
+	h1 {
+		grid-column: 2 / span 6;
+		grid-row: 1;
+		color: rgba(229, 224, 90, 1);
+		font-size: 2rem;
+		text-align: center;
+		padding-top: 2rem;
+	}
+
+	h3 {
+		grid-column: 2 / span 3;
+		grid-row: 1 / span 1;
+		align-self: center;
+		justify-content: center;
+		font-family: pragmatica,sans-serif;
+		font-weight: 200;
+		font-size: 1.2rem;
+		color: #3A3D3F;
+		padding-top: 3rem;
+	}
+
+	p {
+		grid-column: 5 / span 3;
+		grid-row: 1 / span 1;
+		align-self: center;
+		justify-content: center;
+		font-family: pragmatica,sans-serif;
+		font-weight: 200;
+		font-size: 1.2rem;
+		color: #3A3D3F;
+		padding-top: 3rem;
+	}
+
+	.towel{
+		img {
+			grid-column: 1 / span 6;
+			grid-row: 1 / span 3;
+			width: auto;
+			height: 50vh;
+		}
+	}
+}
+}
